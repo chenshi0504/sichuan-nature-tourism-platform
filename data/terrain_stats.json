@@ -1,0 +1,1108 @@
+{
+ "jiuzhaigou": {
+  "center": 2472.1,
+  "min": 2069.0,
+  "max": 3930.0,
+  "relief": 1861.0,
+  "radius_km": 12.0
+ },
+ "huanglong": {
+  "center": 3137.6,
+  "min": 2600.0,
+  "max": 4521.0,
+  "relief": 1922.0,
+  "radius_km": 12.0
+ },
+ "emeishan": {
+  "center": 2976.3,
+  "min": 498.0,
+  "max": 2976.0,
+  "relief": 2478.0,
+  "radius_km": 12.0
+ },
+ "qingcheng": {
+  "center": 843.3,
+  "min": 597.0,
+  "max": 1693.0,
+  "relief": 1096.0,
+  "radius_km": 12.0
+ },
+ "dujiangyan": {
+  "center": 727.1,
+  "min": 634.0,
+  "max": 1541.0,
+  "relief": 907.0,
+  "radius_km": 12.0
+ },
+ "panda-habitat": {
+  "center": 2800.3,
+  "min": 1588.0,
+  "max": 4125.0,
+  "relief": 2537.0,
+  "radius_km": 12.0
+ },
+ "leshan-buddha": {
+  "center": 424.2,
+  "min": 355.0,
+  "max": 431.0,
+  "relief": 76.0,
+  "radius_km": 12.0
+ },
+ "yading": {
+  "center": 4517.9,
+  "min": 2777.0,
+  "max": 4715.0,
+  "relief": 1938.0,
+  "radius_km": 12.0
+ },
+ "siguniang": {
+  "center": 5224.2,
+  "min": 3386.0,
+  "max": 5224.0,
+  "relief": 1838.0,
+  "radius_km": 12.0
+ },
+ "hailuogou": {
+  "center": 2013.7,
+  "min": 2014.0,
+  "max": 4902.0,
+  "relief": 2889.0,
+  "radius_km": 12.0
+ },
+ "bipenggou": {
+  "center": 2857.7,
+  "min": 1985.0,
+  "max": 5480.0,
+  "relief": 3495.0,
+  "radius_km": 12.0
+ },
+ "miyaluo": {
+  "center": 2856.8,
+  "min": 2857.0,
+  "max": 5369.0,
+  "relief": 2512.0,
+  "radius_km": 12.0
+ },
+ "dagu": {
+  "center": 4653.4,
+  "min": 2911.0,
+  "max": 4653.0,
+  "relief": 1743.0,
+  "radius_km": 12.0
+ },
+ "wawushan": {
+  "center": 2723.2,
+  "min": 1170.0,
+  "max": 2723.0,
+  "relief": 1553.0,
+  "radius_km": 12.0
+ },
+ "shunan-zhuhai": {
+  "center": 368.7,
+  "min": 330.0,
+  "max": 641.0,
+  "relief": 311.0,
+  "radius_km": 12.0
+ },
+ "xingwen-shihai": {
+  "center": 872.4,
+  "min": 428.0,
+  "max": 1445.0,
+  "relief": 1016.0,
+  "radius_km": 12.0
+ },
+ "guangwushan": {
+  "center": 2450.4,
+  "min": 1031.0,
+  "max": 2450.0,
+  "relief": 1419.0,
+  "radius_km": 12.0
+ },
+ "nuoshuihe": {
+  "center": 932.0,
+  "min": 665.0,
+  "max": 1666.0,
+  "relief": 1002.0,
+  "radius_km": 12.0
+ },
+ "lugu-lake": {
+  "center": 2692.0,
+  "min": 2685.0,
+  "max": 3502.0,
+  "relief": 818.0,
+  "radius_km": 12.0
+ },
+ "qionghai": {
+  "center": 1510.6,
+  "min": 1481.0,
+  "max": 2652.0,
+  "relief": 1172.0,
+  "radius_km": 12.0
+ },
+ "luojishan": {
+  "center": 3957.0,
+  "min": 1607.0,
+  "max": 3957.0,
+  "relief": 2350.0,
+  "radius_km": 12.0
+ },
+ "bifengxia": {
+  "center": 1259.2,
+  "min": 533.0,
+  "max": 1259.0,
+  "relief": 726.0,
+  "radius_km": 12.0
+ },
+ "mengdingshan": {
+  "center": 1415.1,
+  "min": 589.0,
+  "max": 1415.0,
+  "relief": 826.0,
+  "radius_km": 12.0
+ },
+ "mugecuo": {
+  "center": 3984.2,
+  "min": 2670.0,
+  "max": 4875.0,
+  "relief": 2205.0,
+  "radius_km": 12.0
+ },
+ "cupugou": {
+  "center": 3663.2,
+  "min": 3627.0,
+  "max": 5033.0,
+  "relief": 1406.0,
+  "radius_km": 12.0
+ },
+ "genie": {
+  "center": 5564.4,
+  "min": 3805.0,
+  "max": 5564.0,
+  "relief": 1759.0,
+  "radius_km": 12.0
+ },
+ "cuokahai": {
+  "center": 3840.3,
+  "min": 3418.0,
+  "max": 4726.0,
+  "relief": 1308.0,
+  "radius_km": 12.0
+ },
+ "heizhugou": {
+  "center": 1504.2,
+  "min": 1416.0,
+  "max": 2207.0,
+  "relief": 791.0,
+  "radius_km": 12.0
+ },
+ "dafengding": {
+  "center": 2888.2,
+  "min": 1097.0,
+  "max": 3121.0,
+  "relief": 2024.0,
+  "radius_km": 12.0
+ },
+ "tiantaishan": {
+  "center": 584.3,
+  "min": 504.0,
+  "max": 714.0,
+  "relief": 210.0,
+  "radius_km": 12.0
+ },
+ "jianmenguan": {
+  "center": 882.9,
+  "min": 496.0,
+  "max": 1039.0,
+  "relief": 543.0,
+  "radius_km": 12.0
+ },
+ "huayingshan": {
+  "center": 1416.0,
+  "min": 283.0,
+  "max": 1416.0,
+  "relief": 1133.0,
+  "radius_km": 12.0
+ },
+ "longmenshan-geo": {
+  "center": 2493.2,
+  "min": 956.0,
+  "max": 3288.0,
+  "relief": 2332.0,
+  "radius_km": 12.0
+ },
+ "dabashan-geo": {
+  "center": 930.9,
+  "min": 508.0,
+  "max": 1397.0,
+  "relief": 888.0,
+  "radius_km": 12.0
+ },
+ "panxi-rift": {
+  "center": 2604.8,
+  "min": 1489.0,
+  "max": 2605.0,
+  "relief": 1116.0,
+  "radius_km": 12.0
+ },
+ "gongga": {
+  "center": 7384.6,
+  "min": 2627.0,
+  "max": 7385.0,
+  "relief": 4757.0,
+  "radius_km": 12.0
+ },
+ "yaomei": {
+  "center": 5984.3,
+  "min": 3149.0,
+  "max": 5984.0,
+  "relief": 2835.0,
+  "radius_km": 12.0
+ },
+ "xuebaoding": {
+  "center": 5483.7,
+  "min": 2436.0,
+  "max": 5484.0,
+  "relief": 3048.0,
+  "radius_km": 12.0
+ },
+ "queershan": {
+  "center": 6049.3,
+  "min": 3989.0,
+  "max": 6049.0,
+  "relief": 2060.0,
+  "radius_km": 12.0
+ },
+ "xianairi": {
+  "center": 5842.9,
+  "min": 3538.0,
+  "max": 5843.0,
+  "relief": 2305.0,
+  "radius_km": 12.0
+ },
+ "yangmaiyong": {
+  "center": 5895.8,
+  "min": 3361.0,
+  "max": 5896.0,
+  "relief": 2535.0,
+  "radius_km": 12.0
+ },
+ "xianuoduoji": {
+  "center": 5829.7,
+  "min": 3399.0,
+  "max": 5830.0,
+  "relief": 2431.0,
+  "radius_km": 12.0
+ },
+ "daxuetang": {
+  "center": 5255.9,
+  "min": 2412.0,
+  "max": 5256.0,
+  "relief": 2844.0,
+  "radius_km": 12.0
+ },
+ "jiudingshan": {
+  "center": 4896.6,
+  "min": 1581.0,
+  "max": 4897.0,
+  "relief": 3316.0,
+  "radius_km": 12.0
+ },
+ "zheduoshan": {
+  "center": 4303.8,
+  "min": 3164.0,
+  "max": 4304.0,
+  "relief": 1140.0,
+  "radius_km": 12.0
+ },
+ "balangshan": {
+  "center": 4153.6,
+  "min": 2560.0,
+  "max": 4736.0,
+  "relief": 2176.0,
+  "radius_km": 12.0
+ },
+ "erlangshan": {
+  "center": 3409.3,
+  "min": 1929.0,
+  "max": 3409.0,
+  "relief": 1481.0,
+  "radius_km": 12.0
+ },
+ "kazilashan": {
+  "center": 4558.8,
+  "min": 3715.0,
+  "max": 4615.0,
+  "relief": 900.0,
+  "radius_km": 12.0
+ },
+ "jianziwanshan": {
+  "center": 4622.9,
+  "min": 3321.0,
+  "max": 4636.0,
+  "relief": 1315.0,
+  "radius_km": 12.0
+ },
+ "haizishan": {
+  "center": 4552.2,
+  "min": 3631.0,
+  "max": 4694.0,
+  "relief": 1063.0,
+  "radius_km": 12.0
+ },
+ "niubeishan": {
+  "center": 3064.3,
+  "min": 1493.0,
+  "max": 3064.0,
+  "relief": 1571.0,
+  "radius_km": 12.0
+ },
+ "dawa": {
+  "center": 3700.9,
+  "min": 2298.0,
+  "max": 3947.0,
+  "relief": 1649.0,
+  "radius_km": 12.0
+ },
+ "zimeiyakou": {
+  "center": 4190.7,
+  "min": 3838.0,
+  "max": 5041.0,
+  "relief": 1203.0,
+  "radius_km": 12.0
+ },
+ "yahayakou": {
+  "center": 4031.8,
+  "min": 3915.0,
+  "max": 5871.0,
+  "relief": 1956.0,
+  "radius_km": 12.0
+ },
+ "zoige": {
+  "center": 3433.7,
+  "min": 3430.0,
+  "max": 3486.0,
+  "relief": 56.0,
+  "radius_km": 12.0
+ },
+ "huahu": {
+  "center": 3460.1,
+  "min": 3434.0,
+  "max": 3467.0,
+  "relief": 33.0,
+  "radius_km": 12.0
+ },
+ "jiuqu-huanghe": {
+  "center": 3434.6,
+  "min": 3419.0,
+  "max": 3584.0,
+  "relief": 165.0,
+  "radius_km": 12.0
+ },
+ "mahu": {
+  "center": 1118.6,
+  "min": 900.0,
+  "max": 2441.0,
+  "relief": 1541.0,
+  "radius_km": 12.0
+ },
+ "diexihaizi": {
+  "center": 2142.9,
+  "min": 2088.0,
+  "max": 4063.0,
+  "relief": 1975.0,
+  "radius_km": 12.0
+ },
+ "xinluhai": {
+  "center": 4017.8,
+  "min": 4018.0,
+  "max": 5122.0,
+  "relief": 1104.0,
+  "radius_km": 12.0
+ },
+ "kasahu": {
+  "center": 3490.1,
+  "min": 3490.0,
+  "max": 4605.0,
+  "relief": 1115.0,
+  "radius_km": 12.0
+ },
+ "wuxuhai": {
+  "center": 3709.1,
+  "min": 3436.0,
+  "max": 4915.0,
+  "relief": 1479.0,
+  "radius_km": 12.0
+ },
+ "sister-lakes": {
+  "center": 4599.9,
+  "min": 3602.0,
+  "max": 4693.0,
+  "relief": 1091.0,
+  "radius_km": 12.0
+ },
+ "hongyuan": {
+  "center": 3670.8,
+  "min": 3495.0,
+  "max": 3919.0,
+  "relief": 423.0,
+  "radius_km": 12.0
+ },
+ "tagong": {
+  "center": 3918.4,
+  "min": 3519.0,
+  "max": 4459.0,
+  "relief": 940.0,
+  "radius_km": 12.0
+ },
+ "maoya": {
+  "center": 4450.7,
+  "min": 3906.0,
+  "max": 4731.0,
+  "relief": 825.0,
+  "radius_km": 12.0
+ },
+ "bamei": {
+  "center": 3794.4,
+  "min": 3794.0,
+  "max": 4344.0,
+  "relief": 550.0,
+  "radius_km": 12.0
+ },
+ "zhaxika": {
+  "center": 4334.4,
+  "min": 4001.0,
+  "max": 4661.0,
+  "relief": 660.0,
+  "radius_km": 12.0
+ },
+ "jinkouhe-gorge": {
+  "center": 583.1,
+  "min": 583.0,
+  "max": 2809.0,
+  "relief": 2226.0,
+  "radius_km": 12.0
+ },
+ "yalongjiang-gorge": {
+  "center": 2516.0,
+  "min": 2358.0,
+  "max": 2833.0,
+  "relief": 475.0,
+  "radius_km": 12.0
+ },
+ "minjiang-gorge": {
+  "center": 3179.8,
+  "min": 1592.0,
+  "max": 3829.0,
+  "relief": 2237.0,
+  "radius_km": 12.0
+ },
+ "huya-gorge": {
+  "center": 2261.9,
+  "min": 1312.0,
+  "max": 3537.0,
+  "relief": 2225.0,
+  "radius_km": 12.0
+ },
+ "jinshajiang-gorge": {
+  "center": 1190.3,
+  "min": 983.0,
+  "max": 2214.0,
+  "relief": 1231.0,
+  "radius_km": 12.0
+ },
+ "qingyijiang-gorge": {
+  "center": 1105.3,
+  "min": 561.0,
+  "max": 1453.0,
+  "relief": 892.0,
+  "radius_km": 12.0
+ },
+ "wolong": {
+  "center": 2800.3,
+  "min": 1588.0,
+  "max": 4125.0,
+  "relief": 2537.0,
+  "radius_km": 12.0
+ },
+ "fengtongzhai": {
+  "center": 2016.4,
+  "min": 1779.0,
+  "max": 4033.0,
+  "relief": 2254.0,
+  "radius_km": 12.0
+ },
+ "wanglang": {
+  "center": 3084.4,
+  "min": 1110.0,
+  "max": 3087.0,
+  "relief": 1977.0,
+  "radius_km": 12.0
+ },
+ "tangjiahe": {
+  "center": 1851.4,
+  "min": 986.0,
+  "max": 2614.0,
+  "relief": 1628.0,
+  "radius_km": 12.0
+ },
+ "baihe": {
+  "center": 2565.1,
+  "min": 2162.0,
+  "max": 4309.0,
+  "relief": 2146.0,
+  "radius_km": 12.0
+ },
+ "yading-reserve": {
+  "center": 3893.1,
+  "min": 2956.0,
+  "max": 4551.0,
+  "relief": 1595.0,
+  "radius_km": 12.0
+ },
+ "gongga-reserve": {
+  "center": 5678.6,
+  "min": 2464.0,
+  "max": 5679.0,
+  "relief": 3215.0,
+  "radius_km": 12.0
+ },
+ "panzhihua-sutie": {
+  "center": 1251.2,
+  "min": 1159.0,
+  "max": 2218.0,
+  "relief": 1059.0,
+  "radius_km": 12.0
+ },
+ "lf-chengdu-plain": {
+  "center": 506.1,
+  "min": 478.0,
+  "max": 548.0,
+  "relief": 70.0,
+  "radius_km": 12.0
+ },
+ "lf-west-plateau": {
+  "center": 4913.4,
+  "min": 3778.0,
+  "max": 4913.0,
+  "relief": 1136.0,
+  "radius_km": 12.0
+ },
+ "lf-parallel-ridges": {
+  "center": 376.9,
+  "min": 350.0,
+  "max": 684.0,
+  "relief": 334.0,
+  "radius_km": 12.0
+ },
+ "lf-panxi-rift": {
+  "center": 2932.4,
+  "min": 2327.0,
+  "max": 3743.0,
+  "relief": 1415.0,
+  "radius_km": 12.0
+ },
+ "lf-qinba": {
+  "center": 1249.0,
+  "min": 854.0,
+  "max": 1627.0,
+  "relief": 773.0,
+  "radius_km": 12.0
+ },
+ "lf-south-hills": {
+  "center": 304.6,
+  "min": 259.0,
+  "max": 514.0,
+  "relief": 255.0,
+  "radius_km": 12.0
+ },
+ "lf-zoige-plateau": {
+  "center": 3455.7,
+  "min": 3433.0,
+  "max": 3548.0,
+  "relief": 114.0,
+  "radius_km": 12.0
+ },
+ "qingcheng-houshan": {
+  "center": 699.0,
+  "min": 586.0,
+  "max": 1896.0,
+  "relief": 1310.0,
+  "radius_km": 12.0
+ },
+ "hongkou": {
+  "center": 975.4,
+  "min": 646.0,
+  "max": 1897.0,
+  "relief": 1251.0,
+  "radius_km": 12.0
+ },
+ "jiulonggou": {
+  "center": 913.9,
+  "min": 572.0,
+  "max": 2046.0,
+  "relief": 1474.0,
+  "radius_km": 12.0
+ },
+ "anzihe": {
+  "center": 1339.3,
+  "min": 688.0,
+  "max": 2398.0,
+  "relief": 1710.0,
+  "radius_km": 12.0
+ },
+ "baishuihe": {
+  "center": 896.7,
+  "min": 657.0,
+  "max": 2184.0,
+  "relief": 1527.0,
+  "radius_km": 12.0
+ },
+ "yinchanggou": {
+  "center": 1082.4,
+  "min": 642.0,
+  "max": 2985.0,
+  "relief": 2344.0,
+  "radius_km": 12.0
+ },
+ "bailu": {
+  "center": 1071.1,
+  "min": 562.0,
+  "max": 2416.0,
+  "relief": 1854.0,
+  "radius_km": 12.0
+ },
+ "huilonggou": {
+  "center": 1259.0,
+  "min": 665.0,
+  "max": 2186.0,
+  "relief": 1521.0,
+  "radius_km": 12.0
+ },
+ "gexianshan": {
+  "center": 649.0,
+  "min": 544.0,
+  "max": 1376.0,
+  "relief": 832.0,
+  "radius_km": 12.0
+ },
+ "sanchahu": {
+  "center": 432.0,
+  "min": 394.0,
+  "max": 876.0,
+  "relief": 482.0,
+  "radius_km": 12.0
+ },
+ "xinglonghu": {
+  "center": 482.6,
+  "min": 440.0,
+  "max": 713.0,
+  "relief": 273.0,
+  "radius_km": 12.0
+ },
+ "qinglonghu": {
+  "center": 501.1,
+  "min": 480.0,
+  "max": 737.0,
+  "relief": 257.0,
+  "radius_km": 12.0
+ },
+ "nabaoshan": {
+  "center": 781.6,
+  "min": 585.0,
+  "max": 1745.0,
+  "relief": 1160.0,
+  "radius_km": 12.0
+ },
+ "hemingshan": {
+  "center": 1211.2,
+  "min": 599.0,
+  "max": 2484.0,
+  "relief": 1886.0,
+  "radius_km": 12.0
+ },
+ "panda-base": {
+  "center": 511.4,
+  "min": 469.0,
+  "max": 524.0,
+  "relief": 55.0,
+  "radius_km": 12.0
+ },
+ "panda-valley": {
+  "center": 805.1,
+  "min": 617.0,
+  "max": 1783.0,
+  "relief": 1165.0,
+  "radius_km": 12.0
+ },
+ "yinghuashan": {
+  "center": 3529.7,
+  "min": 1939.0,
+  "max": 4340.0,
+  "relief": 2401.0,
+  "radius_km": 12.0
+ },
+ "jiulongshan": {
+  "center": 623.7,
+  "min": 534.0,
+  "max": 1936.0,
+  "relief": 1403.0,
+  "radius_km": 12.0
+ },
+ "heilongtan": {
+  "center": 488.6,
+  "min": 401.0,
+  "max": 535.0,
+  "relief": 134.0,
+  "radius_km": 12.0
+ },
+ "yupingshan": {
+  "center": 929.4,
+  "min": 498.0,
+  "max": 1935.0,
+  "relief": 1437.0,
+  "radius_km": 12.0
+ },
+ "muchuan-zhuhai": {
+  "center": 925.4,
+  "min": 444.0,
+  "max": 1393.0,
+  "relief": 949.0,
+  "radius_km": 12.0
+ },
+ "labahe": {
+  "center": 2049.2,
+  "min": 1863.0,
+  "max": 3881.0,
+  "relief": 2018.0,
+  "radius_km": 12.0
+ },
+ "menghuocheng": {
+  "center": 3424.6,
+  "min": 2286.0,
+  "max": 4061.0,
+  "relief": 1775.0,
+  "radius_km": 12.0
+ },
+ "xiaozhaizigou": {
+  "center": 2687.3,
+  "min": 1401.0,
+  "max": 3645.0,
+  "relief": 2244.0,
+  "radius_km": 12.0
+ },
+ "yaowanggu": {
+  "center": 1223.3,
+  "min": 775.0,
+  "max": 1744.0,
+  "relief": 969.0,
+  "radius_km": 12.0
+ },
+ "xianhaihu": {
+  "center": 526.8,
+  "min": 480.0,
+  "max": 575.0,
+  "relief": 96.0,
+  "radius_km": 12.0
+ },
+ "zengjiashan": {
+  "center": 1365.8,
+  "min": 696.0,
+  "max": 1663.0,
+  "relief": 968.0,
+  "radius_km": 12.0
+ },
+ "mingyuexia": {
+  "center": 700.3,
+  "min": 541.0,
+  "max": 1553.0,
+  "relief": 1012.0,
+  "radius_km": 12.0
+ },
+ "kongshan": {
+  "center": 1175.4,
+  "min": 730.0,
+  "max": 1614.0,
+  "relief": 884.0,
+  "radius_km": 12.0
+ },
+ "bashan-gorge": {
+  "center": 499.3,
+  "min": 485.0,
+  "max": 1105.0,
+  "relief": 620.0,
+  "radius_km": 12.0
+ },
+ "shengzhonghu": {
+  "center": 406.3,
+  "min": 363.0,
+  "max": 606.0,
+  "relief": 243.0,
+  "radius_km": 12.0
+ },
+ "tianyigu": {
+  "center": 639.6,
+  "min": 284.0,
+  "max": 710.0,
+  "relief": 426.0,
+  "radius_km": 12.0
+ },
+ "huangjing": {
+  "center": 1542.6,
+  "min": 484.0,
+  "max": 1543.0,
+  "relief": 1059.0,
+  "radius_km": 12.0
+ },
+ "huagaoxi": {
+  "center": 1022.0,
+  "min": 431.0,
+  "max": 1278.0,
+  "relief": 846.0,
+  "radius_km": 12.0
+ },
+ "qionglong": {
+  "center": 373.7,
+  "min": 327.0,
+  "max": 778.0,
+  "relief": 451.0,
+  "radius_km": 12.0
+ },
+ "gesala": {
+  "center": 2633.6,
+  "min": 1320.0,
+  "max": 2893.0,
+  "relief": 1573.0,
+  "radius_km": 12.0
+ },
+ "munigou": {
+  "center": 3304.8,
+  "min": 2749.0,
+  "max": 4050.0,
+  "relief": 1301.0,
+  "radius_km": 12.0
+ },
+ "qizaigou": {
+  "center": 3445.1,
+  "min": 3302.0,
+  "max": 4288.0,
+  "relief": 986.0,
+  "radius_km": 12.0
+ },
+ "shenxianchi": {
+  "center": 3716.0,
+  "min": 2637.0,
+  "max": 4003.0,
+  "relief": 1366.0,
+  "radius_km": 12.0
+ },
+ "kalonggou": {
+  "center": 3746.4,
+  "min": 2138.0,
+  "max": 3976.0,
+  "relief": 1838.0,
+  "radius_km": 12.0
+ },
+ "naizigou": {
+  "center": 3041.9,
+  "min": 2949.0,
+  "max": 3979.0,
+  "relief": 1029.0,
+  "radius_km": 12.0
+ },
+ "yakexia": {
+  "center": 3513.2,
+  "min": 2562.0,
+  "max": 4331.0,
+  "relief": 1769.0,
+  "radius_km": 12.0
+ },
+ "mengbishan": {
+  "center": 3858.4,
+  "min": 3798.0,
+  "max": 4491.0,
+  "relief": 693.0,
+  "radius_km": 12.0
+ },
+ "xinduqiao": {
+  "center": 3585.7,
+  "min": 3440.0,
+  "max": 4355.0,
+  "relief": 915.0,
+  "radius_km": 12.0
+ },
+ "jiaju": {
+  "center": 1867.0,
+  "min": 1867.0,
+  "max": 4505.0,
+  "relief": 2638.0,
+  "radius_km": 12.0
+ },
+ "dangling": {
+  "center": 3910.1,
+  "min": 3855.0,
+  "max": 4720.0,
+  "relief": 865.0,
+  "radius_km": 12.0
+ },
+ "mosika": {
+  "center": 3759.1,
+  "min": 3555.0,
+  "max": 4590.0,
+  "relief": 1035.0,
+  "radius_km": 12.0
+ },
+ "longchi": {
+  "center": 2065.2,
+  "min": 669.0,
+  "max": 3032.0,
+  "relief": 2363.0,
+  "radius_km": 12.0
+ },
+ "zhaogongshan": {
+  "center": 2364.9,
+  "min": 647.0,
+  "max": 2389.0,
+  "relief": 1742.0,
+  "radius_km": 12.0
+ },
+ "danjingshan": {
+  "center": 1124.0,
+  "min": 598.0,
+  "max": 2103.0,
+  "relief": 1505.0,
+  "radius_km": 12.0
+ },
+ "longquanshan": {
+  "center": 636.4,
+  "min": 438.0,
+  "max": 696.0,
+  "relief": 258.0,
+  "radius_km": 12.0
+ },
+ "danjingtai": {
+  "center": 742.6,
+  "min": 428.0,
+  "max": 743.0,
+  "relief": 314.0,
+  "radius_km": 12.0
+ },
+ "shixianghu": {
+  "center": 610.9,
+  "min": 500.0,
+  "max": 912.0,
+  "relief": 412.0,
+  "radius_km": 12.0
+ },
+ "huashuiwan": {
+  "center": 1581.6,
+  "min": 638.0,
+  "max": 3296.0,
+  "relief": 2658.0,
+  "radius_km": 12.0
+ },
+ "yunding-shcheng": {
+  "center": 942.2,
+  "min": 436.0,
+  "max": 942.0,
+  "relief": 506.0,
+  "radius_km": 12.0
+ },
+ "caoyutan": {
+  "center": 511.4,
+  "min": 511.0,
+  "max": 1271.0,
+  "relief": 760.0,
+  "radius_km": 12.0
+ },
+ "wanggangping": {
+  "center": 2429.7,
+  "min": 1535.0,
+  "max": 3151.0,
+  "relief": 1616.0,
+  "radius_km": 12.0
+ },
+ "jiajinshan": {
+  "center": 4183.0,
+  "min": 2818.0,
+  "max": 4476.0,
+  "relief": 1657.0,
+  "radius_km": 12.0
+ },
+ "micangshan": {
+  "center": 1657.9,
+  "min": 960.0,
+  "max": 1658.0,
+  "relief": 698.0,
+  "radius_km": 12.0
+ },
+ "bataishan": {
+  "center": 2335.2,
+  "min": 552.0,
+  "max": 2335.0,
+  "relief": 1783.0,
+  "radius_km": 12.0
+ },
+ "bowangshan": {
+  "center": 1222.4,
+  "min": 311.0,
+  "max": 1222.0,
+  "relief": 912.0,
+  "radius_km": 12.0
+ },
+ "ertan": {
+  "center": 1194.3,
+  "min": 1194.0,
+  "max": 2286.0,
+  "relief": 1092.0,
+  "radius_km": 12.0
+ },
+ "yele": {
+  "center": 2703.8,
+  "min": 1873.0,
+  "max": 4286.0,
+  "relief": 2413.0,
+  "radius_km": 12.0
+ },
+ "yalashan": {
+  "center": 5729.4,
+  "min": 3364.0,
+  "max": 5729.0,
+  "relief": 2365.0,
+  "radius_km": 12.0
+ },
+ "zipingpu": {
+  "center": 927.1,
+  "min": 723.0,
+  "max": 3174.0,
+  "relief": 2450.0,
+  "radius_km": 12.0
+ },
+ "longquanhu": {
+  "center": 464.4,
+  "min": 415.0,
+  "max": 786.0,
+  "relief": 371.0,
+  "radius_km": 12.0
+ },
+ "jiufengshan": {
+  "center": 3353.9,
+  "min": 891.0,
+  "max": 3354.0,
+  "relief": 2463.0,
+  "radius_km": 12.0
+ },
+ "wuzhongshan": {
+  "center": 1338.1,
+  "min": 601.0,
+  "max": 2904.0,
+  "relief": 2304.0,
+  "radius_km": 12.0
+ },
+ "tuojiang-xiaosanxia": {
+  "center": 446.1,
+  "min": 446.0,
+  "max": 628.0,
+  "relief": 182.0,
+  "radius_km": 12.0
+ }
+}

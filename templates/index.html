@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>四川自然旅游资源</title>
+<meta name="description" content="基于 OpenStreetMap 与开放高程数据渲染的四川省地形底图，叠加世界遗产、自然景区、冰川雪山、湿地湖泊、草原、峡谷与自然保护区等自然旅游资源。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f7a5c'/%3E%3Cpath d='M5 24l6-11 4.5 7 3-4.5L27 24z' fill='%23fff' opacity='.92'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/vendor/leaflet.css">
+<link rel="stylesheet" href="/static/style.css?v={{ tile_version }}">
+
+<!-- FONT-SPEC v1 BEGIN（tools/apply_font_spec.py 写入，勿手改）-->
+<style>
+/* ==========================================================================
+   平台字体规范 v1 · 唯一源文件（shared/font-spec.css）
+   由 tools/apply_font_spec.py 写入各平台样式表，勿直接改平台内副本。
+
+   中文正文 .................. 微软雅黑 Microsoft YaHei
+   中文页签 / 标题 / 阶段 .... 等线 DengXian
+   英文 / 文件名 / 代码 ...... Cascadia Mono
+   界面数字 / 用量指标 ....... Segoe UI Variable Text（等宽数字）
+   代码内数字 / 任务编号 ..... Cascadia Mono
+   ========================================================================== */
+
+:root{
+  --fs-sans: "Microsoft YaHei", "微软雅黑", "Microsoft YaHei UI", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
+  --fs-head: "DengXian", "等线", "Microsoft YaHei", "微软雅黑", sans-serif;
+  --fs-mono: "Cascadia Mono", "Cascadia Code", Consolas, "Microsoft YaHei", monospace;
+  --fs-num: "Segoe UI Variable Text", "Segoe UI Variable", "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+
+  /* 兼容各平台既有的字体变量名，避免逐条改写 */
+  --font: var(--fs-sans);
+  --font-sans: var(--fs-sans);
+  --font-body: var(--fs-sans);
+  --font-text: var(--fs-sans);
+  --font-ui: var(--fs-sans);
+  --sans: var(--fs-sans);
+  --ui: var(--fs-sans);
+  --mono: var(--fs-mono);
+  --font-mono: var(--fs-mono);
+  --code: var(--fs-mono);
+  --font-code: var(--fs-mono);
+  --font-display: var(--fs-head);
+  --display: var(--fs-head);
+  --num: var(--fs-num);
+  --font-num: var(--fs-num);
+}
+
+/* 1 · 中文正文 ----------------------------------------------------------- */
+html, body,
+button, input, select, textarea, option, optgroup,
+label, legend, fieldset,
+table, caption, th, td, thead, tbody, tfoot,
+p, li, dd, dt, blockquote, figcaption, small, strong, b, em, i, u, s{
+  font-family: var(--fs-sans);
+}
+
+body{
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+}
+
+/* 2 · 中文页签 / 建模标题 / 阶段名称 ------------------------------------ */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.tab, .tabs, .tabs a, .tabs button, .tabs li, .tabs span,
+.tab-item, .tab-link, .tab-btn, .tab-title, .tab-name, .tab-label,
+[role="tab"], [role="tablist"] > *,
+[class$="-tab"], [class$="-tabs"], [class*="-tab "], [class*="-tabs "], [class$="-tab__name"],
+.stage, .stage-name, .stage-title, .stage-head, .stage-nav > *, .stage-label, .stage-lead,
+.pipeline-step, .step-btn, .step-name, .step-t, .step-label, [class$="-step"], [class*="-step "],
+.phase, .phase-name, .phase-title, .layer-name, .layer-title,
+.model-title, .modeling-title, .model-name, .model-head,
+.panel-title, .card-title, .section-title, .block-title, .sec-title, .module-title, .pane-title,
+.hero-title, .page-title, .doc-title{
+  font-family: var(--fs-head);
+}
+
+h1 *, h2 *, h3 *, h4 *, h5 *, h6 *,
+.tab *, .tabs *, [role="tab"] *, .stage-head *, .step-name *, .panel-title *, .card-title *{
+  font-family: inherit;
+}
+
+/* 3 · 英文 / 文件名 / 代码 ---------------------------------------------- */
+code, pre, kbd, samp, tt, var,
+.mono, [class$="-mono"], [class*="-mono "],
+.code, .codeblock, .code-block, .snippet, [class$="-code"], [class*="-code "],
+.path, .file, .filename, .file-name, .filepath, .file-path, .dir, .folder, .pkg, .module-name,
+.id, [class$="-id"], .hash, .slug, .sha, .cmd, .command, .url, .endpoint, .route, .flag, .env-key,
+.port, .addr, .host, .ip, .ver, .version, .sha1, .md5, .checksum,
+textarea.editor, textarea[name="source"], textarea[name="body"],
+#codeInput, #patchText, #f-body, #stub-params,
+.eyebrow, .kicker, .label-en, .tag-en{
+  font-family: var(--fs-mono);
+}
+
+pre *, code *, kbd *, samp *, .mono *{
+  font-family: inherit;
+}
+
+/* 4 · 普通界面数字 / 用量指标（等宽数字，便于上下对齐） ------------------ */
+.num, .number, .value, .count, .count-num, .big-num, .big-number,
+.metric, .metric-value, .metric-num, .stat, .stat-value, .stat-num,
+.kpi, .kpi strong, .kpi-value, .kpi-num,
+.usage, .usage-value, .usage-num, .quota, .quota-value,
+.token-count, .token-usage, .tokens, .cost, .duration, .elapsed, .rate, .ratio, .pct, .percent,
+.progress-value, .score, .rank, .index-value,
+time, .date, .date-num, .timestamp, .mini-date, .skill-date, .meta-num,
+[class$="-count"], [class$="-num"], [class$="-value"], [class$="-pct"], [class$="-percent"],
+[class*="metric"], [class*="usage"], [class*="quota"], [class*="kpi"]{
+  font-family: var(--fs-num);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+}
+
+/* 5 · 代码中的数字 / 任务编号仍用等宽 ------------------------------------ */
+pre .num, pre .number, pre .id, pre .value, pre .count, pre .token, pre .pct,
+code .num, code .number, code .id, code .value, code .token,
+.task-id, .job-id, .run-id, .step-num, .issue-no, .ticket-no, .serial,
+[class$="-task-id"], [class$="-job-id"], [class$="-run-id"]{
+  font-family: var(--fs-mono);
+  font-variant-numeric: normal;
+}
+
+pre, code, kbd, samp, .mono{
+  font-variant-numeric: normal;
+  font-feature-settings: normal;
+}
+</style>
+<!-- FONT-SPEC v1 END -->
+</head>
+<body>
+<div class="app">
+
+  <aside class="side" id="side">
+    <header class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none">
+          <path d="M5 31l8.4-16 6 10.4L24 19l11 12z" fill="#1f7a5c" opacity=".92"/>
+          <path d="M13.4 15l2.4 4.2-2.6 1.4-2.2-3.6z" fill="#fff" opacity=".9"/>
+          <circle cx="30" cy="11" r="2.6" fill="#c99a3c"/>
+        </svg>
+      </div>
+      <div class="brand-copy">
+        <h1>四川自然旅游资源</h1>
+        <p>SICHUAN NATURAL RESOURCES</p>
+      </div>
+      <button class="side-close" id="side-close" type="button" aria-label="收起面板">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </header>
+
+    <section class="stats" id="stats">
+      <div class="stat">
+        <span class="stat-num" id="stat-res">—</span>
+        <span class="stat-label">自然旅游资源</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-label">—</span>
+        <span class="stat-label">OSM 地形注记</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-highest">—</span>
+        <span class="stat-label" id="stat-highest-name">最高峰</span>
+      </div>
+    </section>
+
+    <div class="search">
+      <svg class="search-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <circle cx="7" cy="7" r="4.4" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M10.4 10.4L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input id="search" type="search" placeholder="搜索景点、山峰、湖泊…" autocomplete="off" aria-label="搜索">
+      <button class="search-clear" id="search-clear" type="button" aria-label="清空" hidden>×</button>
+    </div>
+
+    <nav class="chips" id="chips" aria-label="资源分类"></nav>
+
+    <div class="list-head">
+      <span id="list-title">全部资源</span>
+      <div class="sort">
+        <button class="sort-btn is-active" data-sort="ele" type="button">按海拔</button>
+        <button class="sort-btn" data-sort="name" type="button">按名称</button>
+      </div>
+    </div>
+    <ul class="list" id="list" aria-label="资源列表"></ul>
+
+    <footer class="side-foot">
+      <p>底图：Terrarium 高程瓦片本地渲染 · 分层设色 + 山体晕渲</p>
+      <p class="dim">注记与河流来自 OpenStreetMap，缺失河段以 Natural Earth 1:1000 万补齐；资源点位为人工整理并经 OSM 与 DEM 双向校核。</p>
+    </footer>
+  </aside>
+
+  <main class="stage">
+    <div id="map" role="application" aria-label="四川自然旅游资源地图"></div>
+
+    <div class="topbar">
+      <div class="segmented" id="basemap" role="group" aria-label="底图">
+        <button class="seg is-active" data-base="hyps" type="button">高程设色</button>
+        <button class="seg" data-base="hillshade" type="button">山体晕渲</button>
+        <button class="seg" data-base="osm" type="button">OSM 地形</button>
+        <button class="seg" data-base="topo" type="button">Esri 地形图</button>
+      </div>
+      <div class="layers" id="layers">
+        <button class="layer is-active" data-layer="res" type="button"><i class="dot"></i>资源点</button>
+        <button class="layer is-active" data-layer="peak" type="button"><i class="dot dot-peak"></i>山体注记</button>
+        <button class="layer is-active" data-layer="water" type="button"><i class="dot dot-water"></i>水系注记</button>
+        <button class="layer is-active" data-layer="river" type="button"><i class="dot dot-river"></i>河流</button>
+        <button class="layer is-active" data-layer="landform" type="button"><i class="dot dot-land"></i>地貌区</button>
+      </div>
+      <button class="tool-btn" id="profile-btn" type="button" title="在地图上依次点击若干点，生成沿线高程剖面">
+        <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M1.5 12.5l4-7 3 4 2-2.5 4 5.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        高程剖面
+      </button>
+      <button class="tool-btn" id="reset-view" type="button" title="回到四川全省视野">
+        <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="5.2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/></svg>
+        全省
+      </button>
+    </div>
+
+    <div class="ele-legend" id="ele-legend">
+      <div class="ele-bar"></div>
+      <div class="ele-ticks">
+        <span>7000</span><span>6000</span><span>5000</span><span>4000</span>
+        <span>3000</span><span>2000</span><span>1000</span><span>0 m</span>
+      </div>
+      <div class="ele-title">海拔</div>
+    </div>
+
+    <div class="cursor-bar" id="cursor-bar">
+      <span class="cursor-coord" id="cursor-coord">—</span>
+      <span class="cursor-sep"></span>
+      <span class="cursor-ele" id="cursor-ele">海拔 —</span>
+    </div>
+
+    <button class="side-toggle" id="side-toggle" type="button" aria-label="展开面板">
+      <svg viewBox="0 0 16 16" fill="none"><path d="M2 4h12M2 8h12M2 12h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+
+    <section class="detail" id="detail" hidden aria-live="polite">
+      <button class="detail-close" id="detail-close" type="button" aria-label="关闭">×</button>
+      <div class="detail-cat" id="detail-cat">世界遗产</div>
+      <h2 id="detail-name">—</h2>
+      <p class="detail-meta" id="detail-meta">—</p>
+      <div class="detail-tags" id="detail-tags"></div>
+      <p class="detail-intro" id="detail-intro"></p>
+      <div class="detail-terrain" id="detail-terrain"></div>
+      <div class="detail-near" id="detail-near"></div>
+      <div class="detail-ai">
+        <button class="ai-btn" id="ai-btn" type="button">
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1.8l1.5 4.1 4.2 1.5-4.2 1.5L8 13l-1.5-4.1L2.3 7.4l4.2-1.5z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          地形解读
+        </button>
+        <p class="ai-text" id="ai-text"></p>
+      </div>
+    </section>
+
+    <section class="profile-panel" id="profile-panel" hidden>
+      <div class="profile-head">
+        <div>
+          <strong>沿线高程剖面</strong>
+          <span class="profile-hint" id="profile-hint">在地图上依次点击 2–12 个点</span>
+        </div>
+        <div class="profile-actions">
+          <button class="ghost-btn" id="profile-clear" type="button">重选</button>
+          <button class="ghost-btn" id="profile-close" type="button">收起</button>
+        </div>
+      </div>
+      <canvas id="profile-canvas" width="900" height="150"></canvas>
+      <div class="profile-stats" id="profile-stats"></div>
+    </section>
+  </main>
+</div>
+
+<script src="/static/vendor/leaflet.js"></script>
+<script>window.TILE_VER = '{{ tile_version }}';</script>
+<script src="/static/app.js?v={{ tile_version }}"></script>
+</body>
+</html>

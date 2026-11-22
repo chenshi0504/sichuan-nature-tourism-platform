@@ -1,0 +1,14 @@
+*.log
+*.py[cod]
+.DS_Store
+.codebuddy/
+.idea/
+.venv/
+.vscode/
+.workbuddy/
+Thumbs.db
+__pycache__/
+logs/
+node_modules/
+static/tilecache/
+venv/
